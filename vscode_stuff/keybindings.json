@@ -17,13 +17,8 @@
     },
     {
         "key": "m",
-        "command": "jupyter.changeCellToMarkdown",        
+        "command": "jupyter.changeCellToMarkdown",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
-    },
-    {
-        "key": "ctrl+oem_comma",
-        "command": "workbench.action.terminal.focus",
-        "when": "accessibilityModeEnabled && accessibleViewOnLastLine && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewOnLastLine && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
     },
     {
         "key": "ctrl+down",
@@ -31,16 +26,12 @@
         "when": "accessibilityModeEnabled && accessibleViewOnLastLine && terminalHasBeenCreated && accessibleViewCurrentProviderId == 'terminal' || accessibilityModeEnabled && accessibleViewOnLastLine && terminalProcessSupported && accessibleViewCurrentProviderId == 'terminal'"
     },
     {
-        "key": "ctrl+oem_comma",
-        "command": "workbench.action.focusActiveEditorGroup"
-    },
-    {
-        "key": "ctrl+oem_1 m",
+        "key": "ctrl+m",
         "command": "jupyter.changeCellToMarkdown",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
     {
-        "key": "ctrl+oem_1 m",
+        "key": "ctrl+m",
         "command": "-jupyter.changeCellToMarkdown",
         "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
     },
@@ -55,12 +46,6 @@
     {
         "key": "ctrl+enter",
         "command": "git.commitMessageAccept"
-    },
-    {
-        // move from terminal to code
-        "key": "ctrl+,",
-        "command": "workbench.action.focusActiveEditorGroup",
-        "when": "terminalFocus"
     },
     {
         // move cursor down after commenting out some code like pycharm
@@ -79,6 +64,13 @@
         "command": "interactive.input.clear",
         "when": "!LinkedEditingInputVisible && !accessibilityHelpWidgetVisible && !breakpointWidgetVisible && !editorHasMultipleSelections && !editorHasSelection && !editorHoverVisible && !exceptionWidgetVisible && !findWidgetVisible && !inSnippetMode && !isComposing && !markersNavigationVisible && !notificationToastsVisible && !parameterHintsVisible && !renameInputVisible && !selectionAnchorSet && !suggestWidgetVisible && activeEditor == 'workbench.editor.interactive'"
     },
-    
-    
+    {
+        "key": "ctrl+,",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+,",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    }
 ]
