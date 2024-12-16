@@ -1,0 +1,25 @@
+{
+    "python.globalModuleInstallation": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": true,
+    "terminal.integrated.inheritEnv": false,
+    "python.envFile": "${workspaceFolder}/.env",
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Darcula Pycharm with Dark GUI",
+    "python.languageServer": "Pylance",
+    "python.analysis.indexing": false,
+    "files.autoSave": "afterDelay",
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "workbench.colorCustomizations": {
+        "notebook.cellEditorBackground": "#1f1f1f",
+    }
+}
