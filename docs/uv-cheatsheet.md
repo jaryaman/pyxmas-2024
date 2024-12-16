@@ -18,4 +18,10 @@ Run a script with your environment. Alternatively `source .venv/bin/activate`.
 
 ## Docs
 
+### Packaging
+
+https://docs.astral.sh/uv/concepts/projects/init/#packaged-applications 
+
+### Reference
+
 https://docs.astral.sh/uv/reference/cli/
