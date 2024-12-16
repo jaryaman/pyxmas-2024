@@ -16,7 +16,6 @@ Synchronize the venv with the lockfile
 
 Run a script with your environment. Alternatively `source .venv/bin/activate`.
 
-
 ## Docs
 
 https://docs.astral.sh/uv/reference/cli/
