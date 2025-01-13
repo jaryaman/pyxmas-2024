@@ -4,6 +4,12 @@
 
 Add a package to the project
 
+### Editable dependency
+
+```
+uv add --editable ./path/foo
+```
+
 ## `uv lock`
 
 Update the project's lockfile
