@@ -24,6 +24,12 @@ extra1 = ["pandas"]
 extra2 = ["polars"]
 ```
 
+## Creating a library
+
+```
+uv init --lib --name bla
+```
+
 ## Installing from git
 If a project should be rebuilt whenever the commit hash changes, you can add the following to the project's `pyproject.toml`:
 
